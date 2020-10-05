@@ -8,6 +8,6 @@
 
 console.log(document.querySelector('.carre').getBoundingClientRect());
 
-document.addEventListener('keypress', function(selector){
-   console.log(selector.onclick);
+document.addEventListener('keypress', function(e){
+   console.log(e.key);
    })
