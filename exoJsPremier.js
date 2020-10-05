@@ -6,3 +6,5 @@
 // h1.textContent = document.createTextNode('The web’s most popular front-end template');
 // body.prepend(h1);
 // body.appendChild(h1);
+
+   // 05/10 correction
