@@ -1,0 +1,13 @@
+.carre {
+	width:100px;
+	height:100px;
+	background:red;
+}
+.baton{
+  position: fixed;
+  top: 160px;
+  left: 1006px;
+   width: 40px;
+   height: 400px;
+   background-color: green;
+}
