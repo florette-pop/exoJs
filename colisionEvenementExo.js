@@ -9,5 +9,9 @@
 console.log(document.querySelector('.carre').getBoundingClientRect());
 
 document.addEventListener('keypress', function(e){
-   console.log(e.key);
+   console.log(e.keyCode);
    })
+
+move('#carre')
+.add('margin-left', 200)
+  .end();
