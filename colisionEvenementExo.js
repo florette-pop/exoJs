@@ -12,6 +12,15 @@ document.addEventListener('keypress', function(e){
    console.log(e.keyCode);
    })
 
-move('#carre')
-.add('margin-left', 200)
-  .end();
+// move('#carre')
+// .add('margin-left', 200)
+//   .end();
+
+dep=10,leftPos=0;
+
+function avancer(){
+    leftPos+=dep
+    console.log(leftPos)
+   document.getElementById("carre").style.left=leftPos+"px"
+}
+setInterval(avancer,50);
