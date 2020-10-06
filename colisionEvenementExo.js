@@ -6,7 +6,7 @@
 //   console.log(e.key);
 // })
 
-var carre = document.querySelector('.carre').getBoundingClientRect();
+/*var carre = document.querySelector('.carre').getBoundingClientRect();
 console.log(carre);
 
 document.addEventListener('keypress', function(e){
@@ -17,7 +17,33 @@ document.addEventListener('keypress', function(e){
     carre.x += dep;
     console.log(carre);
   }
-})
+}) */
+
+const monCarre = document.querySelector(".carre");
+const monBaton = document.querySelector("baton");
+let x = 0;
+let y = 0;
+document.addEventListener("keydown", function (event) {
+  if (event.key === "ArrowUp") {
+    console.log("up");
+    y--;
+    monCarre.style.top = y + "px";
+  }
+  if (event.key === "ArrowDown") {
+    console.log("down");
+    y++;
+    monCarre.style.top = y + "px";
+  }
+  if (event.key === "ArrowLeft") {
+    x--;
+    monCarre.style.left = x + "px";
+  }
+  if (event.key === "ArrowRight") {
+    x++;
+    monCarre.style.left = x + "px";
+  }
+});
+
 
 // move('#carre')
 // .add('margin-left', 200)
