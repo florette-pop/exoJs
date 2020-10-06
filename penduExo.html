@@ -14,11 +14,11 @@
 
     <div id="page">
 
-    <img name="pendu" class="pendu" src="images/pendu_0.jpg">
+    <img name="pendu" class="pendu" src="pendu-image.jpg">
 
     <h1>Jeu de pendu</h1>
 
-    <h2>Entrez une lettre grâce au clavier ci-dessous ; si elle est dans le mot secret, elle sera affichée mais sinon... la sentence se rapprochera !</h2>
+    <h2>Entrez une lettre grâce au clavier ci-dessous ; si elle est dans le mot secret, elle sera affichée mais sinon...</h2>
 
     <table id="clavier">
      <tr>
@@ -58,6 +58,9 @@
     <a class="lien" href="javascript:location.reload();">Nouvelle partie</a>
 
     <table id="mot">
+
+<script type="text/javascript" src="penduExo.js"></script>
+
         <tr>
             <script language="javascript">
                 for(var i=0; i<tailleMot; i++) document.write("<td> <p id=\""+i+"\">"+motSecret.charAt(i)+"</p></td>");
@@ -72,6 +75,6 @@
 </div>
 
 
-    <script type="text/javascript" src="penduExo.js"></script>
+
   </body>
 </html>
