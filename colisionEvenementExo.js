@@ -20,30 +20,32 @@ document.addEventListener('keypress', function(e){
 }) */
 
 const monCarre = document.querySelector(".carre");
-const monBaton = document.querySelector("baton");
+const monBaton = document.querySelector(".baton");
 let x = 10;
 let y = 10;
 document.addEventListener("keydown", function (event) {
   if (event.key === "ArrowUp") {
     console.log("up");
-    y--;
+    y = y - 5;
     monCarre.style.top = y + "px";
   }
   if (event.key === "ArrowDown") {
     console.log("down");
-    y++;
+    y = y + 5;
     monCarre.style.top = y + "px";
   }
   if (event.key === "ArrowLeft") {
-    x--;
+    x = x - 5;
     monCarre.style.left = x + "px";
   }
   if (event.key === "ArrowRight") {
-    x++;
+    x = x + 5;
     monCarre.style.left = x + "px";
   }
 });
 
+console.log(document.querySelector('.carre').getBoundingClientRect());
+console.log(document.querySelector('.baton').getBoundingClientRect());
 
 // move('#carre')
 // .add('margin-left', 200)

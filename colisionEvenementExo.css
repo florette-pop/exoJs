@@ -9,8 +9,8 @@ left : 10;
 .baton{
   position: fixed;
   top: 160px;
-  left: 1006px;
+  left: 503px;
    width: 40px;
-   height: 400px;
+   height: 600px;
    background-color: green;
 }
