@@ -21,8 +21,8 @@ document.addEventListener('keypress', function(e){
 
 const monCarre = document.querySelector(".carre");
 const monBaton = document.querySelector("baton");
-let x = 0;
-let y = 0;
+let x = 10;
+let y = 10;
 document.addEventListener("keydown", function (event) {
   if (event.key === "ArrowUp") {
     console.log("up");
