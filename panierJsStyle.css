@@ -1,0 +1,12 @@
+.add-button{
+  box-sizing: border-box;
+  float: left;
+  margin-top: auto;
+  margin-left: auto;
+}
+
+.bag {
+  width: 100px;
+  height: 100px;
+  background-color: #3490d1;  
+}
