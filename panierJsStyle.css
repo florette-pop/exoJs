@@ -1,4 +1,4 @@
-.add-button{
+ .add-button{
   box-sizing: border-box;
   float: left;
   margin-top: auto;
@@ -13,6 +13,7 @@
 }
 
 .produit{
+  padding: center;
 position: relative;
 box-sizing: border-box;
 top: 30px;
